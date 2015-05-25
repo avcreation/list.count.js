@@ -1,0 +1,24 @@
+{
+  "name": "list.count.js",
+  "main": "dist/list.count.js",
+  "version": "0.1.0",
+  "authors": [
+    "Alexandre Voiney <bonjour@alexandre.voiney.fr>"
+  ],
+  "description": "A count plugin for List.js",
+  "keywords": [
+    "count",
+    "list.js",
+    "list"
+  ],
+  "license": "MIT",
+  "homepage": "http://listjs.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ]
+}
