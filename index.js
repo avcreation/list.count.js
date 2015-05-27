@@ -22,6 +22,8 @@ module.exports = function(options) {
             countedList = new List(list.listContainer.id, {
                 countClass: options.countClass || 'count',
                 valueNames: [],
+                searchClass: '',
+                sortClass: ''
             });
             list.on('updated', refresh);
             refresh();
