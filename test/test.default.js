@@ -4,7 +4,6 @@ describe('Default settings', function() {
         count;
 
     before(function() {
-        itemHTML = fixture.list(['name'])
         list = new List('list', {
             valueNames: ['name'],
             plugins: [
@@ -12,7 +11,7 @@ describe('Default settings', function() {
             ]
         }, fixture.all);
 
-        pagination = $('.count');
+        count = $('.count');
     });
 
     after(function() {
