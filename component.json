@@ -2,7 +2,7 @@
   "name": "list.count.js",
   "repo": "avcreation/list.count.js",
   "description": "A count plugin for List.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords": [],
   "dependencies": {
     "component/classes": "*",

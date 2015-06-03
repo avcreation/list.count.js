@@ -1,7 +1,7 @@
 {
   "name": "list.count.js",
   "main": "dist/list.count.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "authors": [
     "Alexandre Voiney <bonjour@alexandre.voiney.fr>"
   ],
