@@ -389,7 +389,7 @@ module.exports = function(options) {
 
     var refresh = function() {
         var length = list.matchingItems.length,
-            counterContainers = document.getElementsByClassName(countedList.countClass);
+            counterContainers = document.getElementsByClassName(options.countClass || "count");
 
         for (var i = 0 ; i < counterContainers.length ; ++i) {
             counterContainers[i].innerHTML = length;
@@ -399,12 +399,6 @@ module.exports = function(options) {
     return {
         init: function(parentList) {
             list = parentList;
-            countedList = new List(list.listContainer.id, {
-                countClass: options.countClass || 'count',
-                valueNames: [],
-                searchClass: '',
-                sortClass: ''
-            });
             list.on('updated', refresh);
             refresh();
         },
